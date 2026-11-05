@@ -1,0 +1,11 @@
+
+:root{--bg:#0a1028;--fg:#f5f0e6;--gold:#d4af37;--muted:#aab4c8}
+*{box-sizing:border-box}body{margin:0;font:1.15rem/1.65 Georgia,serif;background:var(--bg);color:var(--fg)}
+a{color:var(--gold)}header,footer{padding:1rem 1.25rem;border-bottom:1px solid #243055}footer{border:0;border-top:1px solid #243055;margin-top:3rem}
+.wrap{max-width:42rem;margin:0 auto;padding:1.5rem 1.25rem 3rem}
+h1,h2{font-family:Georgia,serif;color:var(--gold);font-weight:600}
+.kicker{letter-spacing:.12em;text-transform:uppercase;font-size:.75rem;color:var(--muted)}
+.btn{display:inline-block;margin:.35rem .35rem 0 0;padding:.7rem 1rem;border:1px solid var(--gold);color:var(--gold);text-decoration:none;border-radius:6px}
+.btn.primary{background:var(--gold);color:#0a1028}
+.note{color:var(--muted);font-size:.95rem}
+.chapter p{margin:1em 0}.chapter em{font-style:italic}
